@@ -1,29 +1,29 @@
-# vue-project
+Inicio del Proyecto de Detección de Poses 🤸‍♀️
 
-This template should help get you started developing with Vue 3 in Vite.
+Para poner en marcha tu proyecto de detección de poses con MediaPipe y Vue, sigue estos sencillos pasos. Asegúrate de tener Node.js y pnpm instalados en tu sistema.
 
-## Recommended IDE Setup
+1. Clonar el Repositorio
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Primero, necesitas obtener una copia del proyecto. Abre tu terminal o línea de comandos y ejecuta el siguiente comando para clonar el repositorio de GitHub:
 
-## Customize configuration
+git clone https://github.com/tu-usuario/nombre-del-repositorio.git
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. Instalación de Dependencias
 
-## Project Setup
+Una vez que tengas el proyecto en tu máquina, navega al directorio del proyecto. Desde la terminal, usa el comando cd:
 
-```sh
+cd nombre-del-repositorio
+
+Ahora, para instalar todas las librerías y dependencias necesarias, usa pnpm con el siguiente comando:
+
 pnpm install
-```
 
-### Compile and Hot-Reload for Development
+Este comando leerá el archivo package.json y descargará todo lo que el proyecto necesita para funcionar correctamente.
 
-```sh
-pnpm dev
-```
+3. Ejecutar el Proyecto
 
-### Compile and Minify for Production
+Finalmente, para iniciar el servidor de desarrollo y ver tu proyecto en el navegador, ejecuta el comando de inicio:
 
-```sh
-pnpm build
-```
+pnpm run dev
+
+Esto iniciará una instancia local de la aplicación. Verás un mensaje en la terminal que te indicará la URL donde puedes acceder a la interfaz de detección de poses (generalmente http://localhost:5173). ¡Abre tu navegador, visita esa URL y comienza a bailar!
