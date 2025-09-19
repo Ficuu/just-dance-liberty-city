@@ -1,0 +1,78 @@
+[
+  {
+    "time": 0.0,
+    "pose": {
+      "left_arm_angle": 45,
+      "right_arm_angle": 45
+    },
+    "description": "Ambos brazos ligeramente levantados hacia adelante (45°)"
+  },
+  {
+    "time": 1.0,
+    "pose": {
+      "left_arm_angle": 90,
+      "right_arm_angle": 30
+    },
+    "description": "Brazo izquierdo en horizontal (90°) y brazo derecho levemente levantado (30°)"
+  },
+  {
+    "time": 2.0,
+    "pose": {
+      "left_arm_angle": 135,
+      "right_arm_angle": 135
+    },
+    "description": "Ambos brazos en ángulo abierto hacia arriba (135°) formando una V"
+  },
+  {
+    "time": 3.0,
+    "pose": {
+      "left_arm_angle": 180,
+      "right_arm_angle": 90
+    },
+    "description": "Brazo izquierdo completamente arriba (180°) y brazo derecho horizontal (90°)"
+  },
+  {
+    "time": 4.0,
+    "pose": {
+      "left_arm_angle": 180,
+      "right_arm_angle": 0
+    },
+    "description": "Brazo izquierdo completamente arriba (180°) y brazo derecho completamente abajo (0°)"
+  },
+  {
+    "time": 5.0,
+    "pose": {
+      "left_arm_angle": 90,
+      "right_arm_angle": 90
+    },
+    "description": "Ambos brazos a los lados, formando una T"
+  },
+  {
+    "time": 6.0,
+    "pose": {
+      "left_arm_angle": 0,
+      "right_arm_angle": 0
+    },
+    "description": "Ambos brazos a los costados del cuerpo (0°)"
+  },
+  {
+    "time": 8.0,
+    "pose": {
+      "left_arm_angle": 30,
+      "right_arm_angle": 30,
+      "left_shoulder_angle": 60,
+      "right_shoulder_angle": 60
+    },
+    "description": "Ambos brazos cruzados frente al pecho"
+  },
+  {
+    "time": 9.0,
+    "pose": {
+      "left_arm_angle": 90,
+      "right_arm_angle": 90,
+      "left_shoulder_angle": 90,
+      "right_shoulder_angle": 90
+    },
+    "description": "Brazos en 'L', codos doblados a 90°"
+  }
+]
