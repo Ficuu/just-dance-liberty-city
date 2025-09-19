@@ -1,29 +1,47 @@
-Inicio del Proyecto de Detección de Poses 🤸‍♀️
+# Guía de Inicio Rápido 🚀
 
-Para poner en marcha tu proyecto de detección de poses con MediaPipe y Vue, sigue estos sencillos pasos. Asegúrate de tener Node.js y pnpm instalados en tu sistema.
+¡Bienvenido al proyecto de coreografía interactiva\! Esta guía te ayudará a configurar y ejecutar la aplicación de detección de poses en tu entorno local.
 
-1. Clonar el Repositorio
+-----
 
-Primero, necesitas obtener una copia del proyecto. Abre tu terminal o línea de comandos y ejecuta el siguiente comando para clonar el repositorio de GitHub:
+### Requisitos Previos
 
+Antes de comenzar, asegúrate de tener instalado **Node.js** y **pnpm** en tu sistema. Si no los tienes, puedes instalarlos siguiendo las instrucciones en sus sitios web oficiales.
+
+-----
+
+### Instalación y Ejecución
+
+Sigue estos tres sencillos pasos para poner en marcha el proyecto:
+
+#### 1\. Clonar el Repositorio
+
+Abre tu terminal y ejecuta el siguiente comando para descargar el proyecto en tu máquina.
+
+```bash
 git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+```
 
-2. Instalación de Dependencias
+Una vez completada la descarga, navega al directorio del proyecto.
 
-Una vez que tengas el proyecto en tu máquina, navega al directorio del proyecto. Desde la terminal, usa el comando cd:
-
+```bash
 cd nombre-del-repositorio
+```
 
-Ahora, para instalar todas las librerías y dependencias necesarias, usa pnpm con el siguiente comando:
+#### 2\. Instalar Dependencias
 
+Ahora, instala todas las bibliotecas y paquetes necesarios para que la aplicación funcione. **pnpm** se encargará de gestionar las dependencias de manera eficiente.
+
+```bash
 pnpm install
+```
 
-Este comando leerá el archivo package.json y descargará todo lo que el proyecto necesita para funcionar correctamente.
+#### 3\. Iniciar la Aplicación
 
-3. Ejecutar el Proyecto
+Finalmente, ejecuta el siguiente comando para iniciar el servidor de desarrollo.
 
-Finalmente, para iniciar el servidor de desarrollo y ver tu proyecto en el navegador, ejecuta el comando de inicio:
-
+```bash
 pnpm run dev
+```
 
-Esto iniciará una instancia local de la aplicación. Verás un mensaje en la terminal que te indicará la URL donde puedes acceder a la interfaz de detección de poses (generalmente http://localhost:5173). ¡Abre tu navegador, visita esa URL y comienza a bailar!
+Esto lanzará la aplicación en tu navegador predeterminado. Verás una URL en la terminal (normalmente `http://localhost:5173`). ¡Abre ese enlace y prepárate para bailar\!
