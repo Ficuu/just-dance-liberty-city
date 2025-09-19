@@ -19,13 +19,13 @@ Sigue estos tres sencillos pasos para poner en marcha el proyecto:
 Abre tu terminal y ejecuta el siguiente comando para descargar el proyecto en tu máquina.
 
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+git clone [https://github.com/tu-usuario/nombre-del-repositorio.git](https://github.com/Ficuu/just-dance-liberty-city.git)
 ```
 
 Una vez completada la descarga, navega al directorio del proyecto.
 
 ```bash
-cd nombre-del-repositorio
+cd just-dance-liberty-city
 ```
 
 #### 2\. Instalar Dependencias
